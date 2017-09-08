@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:id="@+id/imgPlacePic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        tools:background="@mipmap/ic_launcher_round" />
+
+
+
+    <LinearLayout
+        android:id="@+id/ViewName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvPlaceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:text="place name"/>
+
+
+        <TextView
+            android:id="@+id/tvPlaceInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="place name"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

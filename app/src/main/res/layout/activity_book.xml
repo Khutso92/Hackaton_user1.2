@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.khutsomatlala.hackaton_user11.BookActivity">
+
+    <ImageView
+        android:id="@+id/BookPic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/mercedes" />
+
+    <Button
+        android:id="@+id/myDatePickerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Date" />
+
+    <TextView
+        android:id="@+id/showMyDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="date" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:hint="Hourly Rate" />
+
+    <EditText
+        android:id="@+id/EdtNumberHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of hours"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Price_Order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calPrice"
+            android:text="get price" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calPrice"
+        android:text="Email order" />
+</LinearLayout>

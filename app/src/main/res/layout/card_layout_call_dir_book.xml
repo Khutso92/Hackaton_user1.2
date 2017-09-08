@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnDetail_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Call"
+            android:text="call" />
+
+
+        <Button
+            android:id="@+id/btnDetail_direction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="direction"
+            android:text="direction" />
+
+        <Button
+            android:id="@+id/btnDetail_hourlyRate"
+            android:layout_width="0dp"
+            android:onClick="GoToBook"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="book" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
